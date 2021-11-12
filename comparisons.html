@@ -23,10 +23,10 @@
                     Plots
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a href="temperature.html">Temperature</a></li>
-                    <li><a href="cloudiness.html">Cloudiness</a></li>
-                    <li><a href="wind_speed.html">Wind Speed</a></li>
-                    <li><a href="humidity.html">Humidity</a></li>
+                    <li><a class="nav-link" href="temperature.html">Temperature</a></li>
+                    <li><a class="nav-link" href="cloudiness.html">Cloudiness</a></li>
+                    <li><a class="nav-link" href="wind_speed.html">Wind Speed</a></li>
+                    <li><a class="nav-link" href="humidity.html">Humidity</a></li>
                   </ul>
               </li>
               <li class="nav-item">
@@ -40,7 +40,7 @@
         </div>
       </nav>
 
-    <!-- Header -->
+    <!-- Headers-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -57,13 +57,18 @@
         </div>
     </div>
 
+    <!-- Visualizations linked to their individual pages -->
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Temperature" href="temperature.html">
+                <a href="temperature.html">
+                <img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Temperature">
+                </a>
             </div>
             <div class="col-6">
+                <a href="humidity.html">
                 <img class="img-fluid" src="Resources/assets/images/Fig2.png" alt="Humidity">
+                </a>
             </div>
         </div>
     </div>
@@ -71,10 +76,14 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
+                <a href="cloudiness.html">
                 <img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+                </a>
             </div>
             <div class="col-6">
+                <a href="wind_speed.html">
                 <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+                </a>
             </div>
         </div>
     </div>

@@ -24,10 +24,10 @@
                   Plots
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a href="temperature.html">Temperature</a></li>
-                  <li><a href="cloudiness.html">Cloudiness</a></li>
-                  <li><a href="wind_speed.html">Wind Speed</a></li>
-                  <li><a href="humidity.html">Humidity</a></li>
+                  <li><a class="nav-link" href="temperature.html">Temperature</a></li>
+                  <li><a class="nav-link" href="cloudiness.html">Cloudiness</a></li>
+                  <li><a class="nav-link" href="wind_speed.html">Wind Speed</a></li>
+                  <li><a class="nav-link" href="humidity.html">Humidity</a></li>
                 </ul>
             </li>
             <li class="nav-item">
@@ -44,27 +44,42 @@
     <!-- Header -->
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h1 class="display-3">Climate Data Analysis</h1>
+        <div class="col-6">
+          <h1 class="display-5">Climate Data Analysis</h1>
+        </div>
+        <div class="col-4">
+          <h1 class="display-6">Visualizations</h1>
         </div>
       </div>
     </div>
 
 
-    <!-- Explanation of project/page -->
+    <!-- Explanation of project/page and plot previews-->
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-6">
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. We pulled data on over 500 cities from the OpenWeatherMap API to create the dataset to accomplish this.</p>
           <br>
           <p>Once the dataset was assembled, we used Matplotlib to plot the relationships between various weather aspects and latitude. The specfiic factors included were: temperature, cloudiness, wind speed, and humidity. This site contains the visualizations and source data from our analysis, as well as explanations and descriptions of any trends we found.</p>
+        </div>
+
+        <div class="col-3">
+            <img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Temperature">
+
+            <img class="img-fluid" src="Resources/assets/images/Fig2.png" alt="Humidity">
+        </div>
+        <div class = "col-3">
+            <img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+
+            <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+        </div>
         </div>
       </div>
     </div>
 <br>
 <br>
     <!-- Preview of plots -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col">
           <h1 class="display-6 text-center">Visualizations</h1>
@@ -92,7 +107,7 @@
                 <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
             </div>
         </div>
-    </div>
+    </div> -->
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

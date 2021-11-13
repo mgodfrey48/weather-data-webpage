@@ -40,33 +40,38 @@
         </div>
       </nav>
 
-    <!-- Header -->
-    <div class="container">
+      <div class="container">
         <div class="row">
-            <div class="col">
-            <h1 class="display-3">Wind Speed</h1>
+            <!-- Plot and description -->
+            <div class="col-md-8 col-sm-12">
+                <h1 class="display-3">Wind Speed</h1>
+                <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+                <br>
+                <br>
+                <p>
+                    The data suggests that there might be a slight positive relationship between latitude and windspeeds. While there is a cluster of low wind speeds as latitude increases in the plot, we also see the highest measured wind speeds in cities at some of the highest altitudes.
+                </p>
+            </div>
+
+            <!-- Visualizations -->
+            <div class="col-md-4 col-sm-12">
+                <h1 class="display-6">Visualizations</h1>
+                <a href="temperature.html"> 
+                    <img class="img-fluid" src="Resources/assets/images/Fig1.png" alt="Temperature">
+                </a> 
+                <a href="humidity.html">
+                    <img class="img-fluid" src="Resources/assets/images/Fig2.png" alt="Humidity">
+                </a>
+                <a href="cloudiness.html">  
+                    <img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+                </a>
+                <a href="wind_speed.html">
+                    <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+                </a>
             </div>
         </div>
     </div>
 
-    <!-- Plot -->
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <img class="img-fluid" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
-            </div>
-        </div>
-    </div>
-  <br>
-    <!-- Description of findings -->
-    <div class="container">
-        <div class="row">
-            <p>
-                The data suggests that there might be a slight positive relationship between latitude and windspeeds. While there is a cluster of low wind speeds as latitude increases in the plot, we also see the highest measured wind speeds in cities at some of the highest altitudes.
-            </p>
-        </div>
-    </div>
-    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

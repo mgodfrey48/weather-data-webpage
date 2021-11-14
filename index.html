@@ -16,21 +16,21 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="nav-link" href="temperature.html">Temperature</a></li>
+                  <li><a class="nav-link" href="temperature.html">Max Temperature</a></li>
                   <li><a class="nav-link" href="cloudiness.html">Cloudiness</a></li>
                   <li><a class="nav-link" href="wind_speed.html">Wind Speed</a></li>
                   <li><a class="nav-link" href="humidity.html">Humidity</a></li>
                 </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="comparisons.html">Comparison</a>
+              <a class="nav-link active" aria-current="page" href="comparisons.html">Comparison</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="data.html">Data</a>
@@ -44,7 +44,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-12">
-          <h1 class="display-5">Climate Data Analysis</h1>
+          <h1 class="display-5">Weather Data Analysis</h1>
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. We pulled data on over 500 cities from the OpenWeatherMap API to create the dataset to accomplish this.</p>
           <p>Once the dataset was assembled, we used Matplotlib to plot the relationships between various weather aspects and latitude. The specfiic factors included were: temperature, cloudiness, wind speed, and humidity. This site contains the visualizations and source data from our analysis, as well as explanations and descriptions of any trends we found.</p>
         </div>
@@ -71,5 +71,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
 </body>
 </html>

@@ -16,3 +16,9 @@ Other files:
 * data_conversion.py - python program written to write an html file from the csv file containing our data
 * data_converted.html - html version of csv file containing our data. This script was then used in the data.html file
 * Resources - csv file of the data and an assets/images path to the visualizations used in the webpage
+
+To produce the webpage created in this repo, do the following:
+1. Clone this repository to your computer and open the files in Visual Studio Code (or something similar)
+2. Open the `index.html` file with a live server
+3. Use the navigation bar to explore the website and visit the various pages created using the other html files.
+4. Expand and collapse your browser window to see how the style of the website reacts.

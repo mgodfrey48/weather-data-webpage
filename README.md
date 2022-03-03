@@ -1,4 +1,4 @@
-# web-design-challenge
+# Weather Data Analysis
 
 The files in this repo create a webpage that provides visualizations and analysis of several aspects of weather data compared to latitudes of cities throughout the world. 
 
